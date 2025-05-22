@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Support Bishal's B.Pharm Education</title>
+  <meta name="description" content="Support Bishal Malakar from Assam in achieving his dream to study B.Pharm at Royal Global University.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="Support Bishal's B.Pharm Education" />
+  <meta property="og:description" content="Help Bishal Malakar from Assam achieve his dream of studying B.Pharm at Royal Global University. Your support matters!" />
+  <meta property="og:image" content="https://example.com/qr-image.jpg" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Support Bishal's B.Pharm Education" />
+  <meta name="twitter:description" content="Help Bishal Malakar from Assam achieve his dream of studying B.Pharm at Royal Global University." />
+  <meta name="twitter:image" content="https://example.com/qr-image.jpg" />
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f4f6f8;
+      padding: 30px;
+      text-align: center;
+    }
+    .container {
+      background: white;
+      padding: 25px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #2e3d49;
+    }
+    p {
+      font-size: 18px;
+      color: #333;
+    }
+    .upi-box {
+      background: #e6f2ff;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+      font-size: 18px;
+      color: #0056b3;
+      word-wrap: break-word;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 18px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .qr-code {
+      margin-top: 20px;
+    }
+    .qr-code img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Help Bishal Study B.Pharm</h1>
+    <p>My name is <strong>Bishal Malakar</strong> from Nalbari, Assam. I dream of studying B.Pharm at Royal Global University. The total cost is ₹20,00,000, including hostel and fees.</p>
+    <p>If you believe in supporting education, please consider helping me.</p>
+
+    <div class="upi-box">
+      UPI ID: <strong>bishal.uzi@fam</strong>
+    </div>
+
+    <button onclick="copyUPI()">Copy UPI ID</button>
+
+    <div class="qr-code">
+      <h3>Scan to Donate</h3>
+      <img src="Screenshot_2025-05-22-12-59-12-20_ba41e9a642e6e0e2b03656bfbbffd6e4.jpg" alt="UPI QR code for donating to Bishal Malakar's education">
+    </div>
+
+    <p style="margin-top: 20px; font-size: 14px;">Thank you for your support!</p>
+  </div>
+
+  <script>
+    function copyUPI() {
+      const upi = "bishal.uzi@fam";
+      navigator.clipboard.writeText(upi).then(() => {
+        alert("UPI ID copied to clipboard. You can now paste it in your payment app.");
+      });
+    }
+  </script>
+
+</body>
+</html>
